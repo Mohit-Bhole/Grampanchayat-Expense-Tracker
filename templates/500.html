@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="card">
+	<h1>Server Error</h1>
+	<p>Something went wrong. Please try again later.</p>
+	<p><a class="btn btn-secondary" href="{{ url_for('user_home') }}">Go to Public Portal</a></p>
+</section>
+{% endblock %}
